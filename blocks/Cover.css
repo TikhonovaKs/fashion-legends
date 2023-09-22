@@ -111,6 +111,7 @@
   background-image: url(../images/cover-image.png);
   max-width: 1184px;
   height: calc(0.625 * (100vw - 48px * 2));
+  max-height: 740px;
   position: relative;
   background-size: contain;
   background-position: center;
