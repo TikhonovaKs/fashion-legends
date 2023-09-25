@@ -210,5 +210,38 @@
         </nav>
         <p class="footer__copyright">&copy; 2022. Tikhonova Kseniia</p>
       </footer> -->
+
+    <!-- <div class="authentication"> -->
+    <div class="popup popup_type_registration">
+      <div class="popup__container">
+        <form class="registration__form" name="register" novalidate>
+          <label class="registration__label" for="input-name">name</label>
+          <input
+            id="input-name"
+            type="text"
+            name="name"
+            class="registration__input registration__input_data_name"
+            required
+            minlength="2"
+            maxlength="40"
+          />
+          <span id="input-name-error" class="error"></span>
+          <label class="registration__label" for="input-email">email</label>
+          <input
+            id="input-email"
+            type="text"
+            name="email"
+            class="registration__input registration__input_data_email"
+            required
+            minlength="2"
+            maxlength="200"
+          />
+          <span id="input-email-error" class="error"></span>
+          <button type="submit" class="registration__button-save" aria-label="Sent result">
+            <h3 class="registration__button-title">Sign up</h3>
+          </button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
